@@ -1,0 +1,27 @@
+.button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 341px;
+  height: 45px;
+  margin-top: 30px;
+  margin-left: 32px;
+  border-radius: 10vh;
+  background: #fc7614;
+  color: #fff;
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.3s;
+  letter-spacing: 2px;
+  font-weight: bold;
+  &:hover {
+    background: #fff;
+    color: #fc7614;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .button {
+    width: 279px;
+    height: 45px;
+  }
+}

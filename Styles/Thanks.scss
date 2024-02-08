@@ -1,0 +1,64 @@
+.thanksContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 412px;
+  height: 416px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+}
+
+.thankU {
+  margin-top: 10%;
+}
+
+.selectNum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262e38;
+  color: #fc7614;
+  margin-top: 10%;
+  line-height: 24px;
+  width: 193px;
+  height: 32px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.thankTitle {
+  margin-top: 10%;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 35.45px;
+}
+
+.thankText {
+  margin-top: 1%;
+  width: 340px;
+  height: 72px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 1em;
+  text-align: center;
+  color: #969fad;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media only screen and (max-width: 375px) {
+  .thanksContent {
+    width: 327px;
+    height: 360px;
+    .thankU {
+      width: 144px;
+      height: 96px;
+    }
+  }
+}
